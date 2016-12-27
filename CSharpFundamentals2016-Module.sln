@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advanced", "Advanced", "{049DF5C9-F9CF-4B39-9E44-FEF30CD0E8E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stacks And Queues", "Stacks And Queues", "{01D78AE0-6136-48CC-9F4E-1C306669B368}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Bo\Downloads\Stacks-And-Queues-Exercises.docx = C:\Users\Bo\Downloads\Stacks-And-Queues-Exercises.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Reverse Numbers In Stack", "01 Reverse Numbers In Stack", "{ECB843F3-B5EC-464E-8964-38A1CE45EDA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNumbersInStack", "ReverseNumbersInStack\ReverseNumbersInStack.csproj", "{B44FD897-A7BC-4988-86F9-3A0D6EB077E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B44FD897-A7BC-4988-86F9-3A0D6EB077E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44FD897-A7BC-4988-86F9-3A0D6EB077E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44FD897-A7BC-4988-86F9-3A0D6EB077E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44FD897-A7BC-4988-86F9-3A0D6EB077E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01D78AE0-6136-48CC-9F4E-1C306669B368} = {049DF5C9-F9CF-4B39-9E44-FEF30CD0E8E1}
+		{ECB843F3-B5EC-464E-8964-38A1CE45EDA4} = {01D78AE0-6136-48CC-9F4E-1C306669B368}
+		{B44FD897-A7BC-4988-86F9-3A0D6EB077E8} = {ECB843F3-B5EC-464E-8964-38A1CE45EDA4}
+	EndGlobalSection
+EndGlobal
