@@ -11,12 +11,9 @@ namespace ReverseNumbersInStack
             var numberStack = new Stack<string>();
             var input = Console.ReadLine();
 
-            if (input != null)
-            {
-                input.Split(' ')
+            input?.Split(' ')
                 .ToList()
                 .ForEach(item => numberStack.Push(item));
-            }
                 
             Console.WriteLine(string.Join(" ", numberStack.Select(num => num.ToString())));
         }
